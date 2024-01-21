@@ -1,0 +1,25 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    text-align: center;
+    color:white;
+}
+
+.banner *{
+    margin: 9px;
+}
+
+.banner h1{
+    font-size: 7rem;
+    letter-spacing: 0.3rem;
+}
+
+.banner a{
+    border: 1px solid white;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+}

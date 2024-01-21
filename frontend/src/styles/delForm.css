@@ -1,0 +1,20 @@
+.delForm{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.content{
+    background-color: white;
+    height: 60%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

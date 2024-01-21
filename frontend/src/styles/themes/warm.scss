@@ -1,0 +1,64 @@
+.themewarm {
+    background-color: aquamarine;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.themewarm .heading {
+    height: 10px;
+    width: 100px;
+    background-color: black;
+}
+
+.themewarm .input {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+}
+
+.themewarm .textarea {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    height: 30px;
+}
+
+.themewarm .inside-input {
+    height: 5px;
+    background-color: black;
+    width: 40%;
+}
+
+
+.themewarm .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: black;
+}
+
+.themewarm .buttontext{
+    height: 5px;
+    background-color: white;
+    width: 40%;
+}
+
+.themewarm .error2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color:red;
+}
+
+.themewarm .errortext{
+    height: 5px;
+    background-color: white;
+    width: 50%;
+}

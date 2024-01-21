@@ -1,0 +1,18 @@
+.plans{
+    background-color: red;
+    text-align: center;
+}
+
+.plans .container{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.plans .container .box{
+    flex-grow: 1;
+    background-color: green;
+    height: 70vh;
+}

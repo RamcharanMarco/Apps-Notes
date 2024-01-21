@@ -1,0 +1,72 @@
+.editGeneral{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.editGeneral .content{
+    color: black;
+    font-family: "Bricolage Grotesque", sans-serif;
+    background-color: #fff0f5  ;  height: 60%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.editGeneral .content .top{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid grey
+
+}
+
+.editGeneral .content .center{
+    flex-grow: 1;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid grey;
+    gap: 10px;
+    padding: 10px;
+}
+
+.editGeneral .content .bottom{
+    width: 100%;
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.editGeneral input{
+    width: 300px;
+    height: 35px;
+    padding: 15px;
+    outline: none;
+    border: 1px solid grey;
+}
+
+.editGeneral textarea{
+    width: 80%;
+    height: 80%;
+    padding: 15px;
+    outline: none;
+    border: 1px solid grey;
+}
+
+.editGeneral button{
+    background-color: #1d1f21;
+    color: white;
+    padding: 7px;
+}

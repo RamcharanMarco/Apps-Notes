@@ -1,0 +1,64 @@
+.thememidnight {
+    background-color: #001a33;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.thememidnight .heading {
+    height: 10px;
+    width: 100px;
+    background-color: white;
+}
+
+.thememidnight .input {
+    border: 1px solid dodgerblue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+}
+
+.thememidnight .textarea {
+    border: 1px solid dodgerblue;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    height: 30px;
+}
+
+.thememidnight .inside-input {
+    height: 5px;
+    background-color: white;
+    width: 40%;
+}
+
+
+.thememidnight .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: dodgerblue;
+}
+
+.thememidnight .buttontext{
+    height: 5px;
+    background-color: white;
+    width: 40%;
+}
+
+.thememidnight .error2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color:red;
+}
+
+.thememidnight .errortext{
+    height: 5px;
+    background-color: white;
+    width: 50%;
+}

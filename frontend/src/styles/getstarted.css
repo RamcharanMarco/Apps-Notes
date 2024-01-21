@@ -1,0 +1,20 @@
+.getstarted {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  color: white;
+  text-align: center;
+  gap: 20px;
+}
+
+.getstarted h1{
+  font-size: 5rem;
+}
+
+.getstarted a {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+}

@@ -1,0 +1,29 @@
+.general{
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.general .top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.general-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+
+.general-box{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.general-box p{
+    color: grey;
+}

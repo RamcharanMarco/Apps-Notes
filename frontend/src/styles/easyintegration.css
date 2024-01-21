@@ -1,0 +1,24 @@
+.easyintergration{
+  background-color: 	#1d1f21;
+  display: flex;
+    justify-content: center;
+    padding:50px;
+    margin: 20px;
+    color: white;
+  }
+  
+  .easyintergration div{
+    flex-grow: 1;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .easyintergration img{
+    height: 200px;
+    width: 200px;
+  }

@@ -1,0 +1,64 @@
+.usernavbar {
+  color: black;
+  font-family: "Bricolage Grotesque", sans-serif;
+  background-color: #fff0f5; 
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .usernavbar h1 {
+    font-size: 1.5rem;
+    color: black;
+  }
+  
+  .usernavbar .links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .usernavbar #links {
+    display: none;
+  }
+  
+  .usernavbar .links a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  .mobile-nav{
+    color: black;
+    font-family: "Bricolage Grotesque", sans-serif;
+    background-color: #fff0f5;     position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .mobile-nav{
+    color: black;
+    font-family: "Bricolage Grotesque", sans-serif;
+    background-color: #fff0f5;     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #menu-icon{
+    display: block;
+  }
+  
+  @media (min-width: 600px) {
+    .usernavbar #links {
+      display: block;
+    }
+    #menu-icon{
+      display: none;
+    }
+  }
+  

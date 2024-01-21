@@ -1,0 +1,51 @@
+.createForm{
+    min-height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    color: black;
+    font-family: "Bricolage Grotesque", sans-serif;
+    background-color: #fff0f5;
+}
+
+.createForm form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 40px;
+}
+
+.createForm-box{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.createForm form input, .createForm form select, .createForm form button{
+    height: 35px;
+    width: 300px;
+    outline: none;
+}
+
+.createForm form input{
+    border: 1px solid grey;
+    padding: 15px;
+}
+
+.createForm button{
+    background-color: #1d1f21;
+    color: white;
+}
+
+.createForm .error{
+    background-color: red;
+    color: white;
+    padding: 10px;
+  }
+
+.createForm input:focus {
+    border: 1px solid #1d1f21;
+}

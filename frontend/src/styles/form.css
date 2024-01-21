@@ -1,0 +1,14 @@
+.form{
+  color: black;
+  font-family: "Bricolage Grotesque", sans-serif;
+  background-color: #fff0f5;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form .heading{
+  text-align: left;
+}

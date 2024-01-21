@@ -1,0 +1,13 @@
+.logintest{
+    background-color: powderblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logintest div{
+    display: flex;
+    flex-direction: column;
+}

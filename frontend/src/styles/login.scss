@@ -1,0 +1,83 @@
+.login {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-family: "Bricolage Grotesque", sans-serif;
+    background-color: #fff0f5;
+    border: 20px solid white;
+    position: relative;
+}
+
+.login h1 {
+    font-size: 2rem;
+    margin: 20px;
+}
+
+.login div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.login input {
+    width: 300px;
+    height: 35px;
+    padding: 15px;
+    outline: none;
+    border: 1px solid grey;
+}
+
+.login .emailok {
+    width: 300px;
+    height: 35px;
+    background-color: azure;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+}
+
+.login button {
+    background-color: #1d1f21;
+    color: white;
+    padding: 7px;
+    font-size: 1.2rem;
+    width: 300px;
+}
+
+.login .error {
+    background-color: red;
+    color: white;
+    height: 35px;
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: left;
+
+}
+
+.logo a {
+    color: black;
+    font-weight: bold;
+
+}
+
+.login input:focus {
+    border: 1px solid #1d1f21;
+}

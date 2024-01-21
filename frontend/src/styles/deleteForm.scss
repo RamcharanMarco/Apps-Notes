@@ -1,0 +1,79 @@
+.deleteForm {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.deleteForm .content{
+    color: black;
+    font-family: "Bricolage Grotesque", sans-serif;
+    background-color: #fff0f5;    height: 60%;
+    max-width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.deleteForm .top {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    border-bottom: 1px solid grey
+}
+
+.deleteForm .center {
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid grey
+
+}
+
+.deleteForm .center div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.deleteForm .center input{
+    height: 35px;
+    width: 100%;
+}
+
+.deleteForm .bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.deleteForm button{
+    background-color: #1d1f21;
+    color: white;
+    padding: 7px;
+}
+
+.deleteForm .warning{
+    background-color: tan;
+    width: fit-content;
+    padding: 5px;
+}
+
+//background-color: rgba(255, 255, 255, 0.5);

@@ -1,0 +1,64 @@
+.themebw {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.themebw .heading {
+    height: 10px;
+    width: 100px;
+    background-color: white;
+}
+
+.themebw .input {
+    border: 1px solid white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+}
+
+.themebw .textarea {
+    border: 1px solid white;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    height: 30px;
+}
+
+.themebw .inside-input {
+    height: 5px;
+    background-color: white;
+    width: 40%;
+}
+
+
+.themebw .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+}
+
+.themebw .buttontext{
+    height: 5px;
+    background-color: black;
+    width: 40%;
+}
+
+.themebw .error2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color:red;
+}
+
+.themebw .errortext{
+    height: 5px;
+    background-color: white;
+    width: 50%;
+}

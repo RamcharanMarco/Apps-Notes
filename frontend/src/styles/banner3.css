@@ -1,0 +1,26 @@
+.banner3 {
+    text-align: center;
+    padding: 50px;
+    background-color: #1D1D2C;
+    margin: 10px;
+  }
+  
+  .banner3 #mobile,
+  .banner3 #desktop {
+    border: 2px solid black;
+  }
+  
+  .banner3 #desktop {
+    width: 290px;
+    height: 200px;
+  }
+  
+  .banner3 #mobile {
+    border-bottom: 25px solid black;
+    border-top: 12px solid black;
+    border-radius: 15px;
+    width: 150px;
+    height: 220px;
+  }
+  
+  

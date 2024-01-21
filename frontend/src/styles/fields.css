@@ -1,0 +1,28 @@
+.fields {
+  background-color: aquamarine;
+  padding: 20px;
+}
+
+.fields .top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fields-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.field {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.field p {
+  color: grey;
+}

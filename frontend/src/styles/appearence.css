@@ -1,0 +1,81 @@
+.appearence {
+  background-color: aquamarine;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.colors {
+  width: 100%;
+  padding: 20px;
+}
+
+.colors-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.colors-container-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  background-color: white;
+}
+
+.color{
+  width: 150px;
+}
+
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  gap: 10px;
+  padding-top: 0px;
+}
+
+.buttons button{
+  background-color: #1d1f21;
+  color: white;
+  padding: 7px;
+  font-size: 1.2rem;
+}
+
+.colors-container-box2{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 10px;
+  background-color: white;
+}
+
+.colors-container-box2 .top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.colors-container-box2 .colors-container-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  background-color: red;
+}
+
+.prev{
+  background-color: pink;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 50vh;
+}

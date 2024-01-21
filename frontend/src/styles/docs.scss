@@ -1,0 +1,52 @@
+.docs{
+    min-height: 85vh;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+
+.docs h1{
+    font-size: 3rem;
+}
+
+.docs p{
+    font-size: 1.5rem;
+    color: grey;
+}
+
+.docs *{
+    margin: 5px;
+}
+
+@media (min-width: 600px) {
+    .docs h1{
+        font-size: 4rem;
+    }
+    
+    .docs p{
+        font-size: 2rem;
+        color: grey;
+    }
+    
+    .docs ul{
+        list-style: none;
+        margin-top: 40px;
+        font-size: 1.5rem;
+        color: dodgerblue;
+    }
+    
+  }
+  
+
+.docs .box{
+    background-color: red;
+    width: 100%;
+}
+
+.docs img{
+    height: 200px;
+    width: 200px;
+}

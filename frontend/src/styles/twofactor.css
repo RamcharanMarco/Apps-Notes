@@ -1,0 +1,73 @@
+.twofactor{
+    color: black;
+    font-family: "Bricolage Grotesque", sans-serif;
+    background-color: #fff0f5;    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.twofactor .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+}
+
+.enabled{
+    color: black;
+    font-family: "Bricolage Grotesque", sans-serif;
+    background-color: #fff0f5;       height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.changeemail{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: black;
+    font-family: "Bricolage Grotesque", sans-serif;
+    background-color: #fff0f5; 
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.box{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.settings-link{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+}
+
+.twofactor input {
+    width: 300px;
+    height: 35px;
+    padding: 15px;
+    outline: none;
+    border: 1px solid grey;
+  }
+  
+  .twofactor button {
+      background-color: #1d1f21;
+      color: white;
+      padding: 7px;
+      font-size: 1.2rem;
+      width: 300px;
+    }

@@ -1,0 +1,54 @@
+.signup{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-family: "Bricolage Grotesque", sans-serif;
+    background-color: #fff0f5;
+    border: 20px solid white;
+    position: relative;
+}
+
+.signup h1{
+    font-size: 2rem;
+}
+
+.signup .caption{
+    margin-bottom: 20px;
+}
+
+
+.signup div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.signup input{
+    width: 300px;
+    height: 35px;
+    padding: 15px;
+    outline: none;
+    border: 1px solid grey;
+}
+
+.signup button{
+    background-color: #1d1f21;
+    color: white;
+    padding: 7px;
+    font-size: 1.2rem;
+    width: 300px;
+}
+
+.signup .error {
+    background-color: red;
+    color: white;
+    height: 35px;
+    width: 300px;
+}

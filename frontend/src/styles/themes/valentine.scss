@@ -1,0 +1,64 @@
+.themevalentine {
+    background-color: red;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.themevalentine .heading {
+    height: 10px;
+    width: 100px;
+    background-color: white;
+}
+
+.themevalentine .input {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+}
+
+.themevalentine .textarea {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    height: 30px;
+}
+
+.themevalentine .inside-input {
+    height: 5px;
+    background-color: black;
+    width: 40%;
+}
+
+
+.themevalentine .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: black;
+}
+
+.themevalentine .buttontext{
+    height: 5px;
+    background-color: white;
+    width: 40%;
+}
+
+.themevalentine .error2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color:white;
+}
+
+.themevalentine .errortext{
+    height: 5px;
+    background-color: red;
+    width: 50%;
+}

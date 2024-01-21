@@ -1,0 +1,28 @@
+.formsettings{
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.formsettings .top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.formsettings-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.formsettings-setting{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.formsettings-setting p{
+    color: grey;
+}

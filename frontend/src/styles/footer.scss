@@ -1,0 +1,30 @@
+footer {
+    background-color: azure;
+    color: black;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+footer h1{
+    font-size: 3rem;
+}
+
+footer .footerlinks {
+    gap: 10px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: red;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+footer .footerlinks a {
+    margin: 10px;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    text-align: center;
+}
