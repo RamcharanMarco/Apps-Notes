@@ -15,14 +15,6 @@ const createForm = async (req, res) => {
       ...req.body,
     });
 
-    const groups = await Group.find({ user_id: id });
-    if (!groups?.includes(group)) {
-      const group = await Group.create({
-        user_id,
-        group,
-      });
-    }
-
     res.status(200).json(form);
   } catch (error) {
     res.status(400).json({ error: error.message });

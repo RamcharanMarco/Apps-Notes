@@ -82,6 +82,15 @@ const Console = () => {
     });
   };
 
+  const [clickedButton, setClickedButton] = useState(null);
+  const [text, setText] = useState("");
+
+  const handleClick = (button:any) => {
+    setClickedButton(button);
+  };
+
+  const groupss = [`one`, `two`, `three`, `four`, `five`];
+
   return (
     <div className="console">
       {showDeleteAccount ? (
@@ -111,11 +120,15 @@ const Console = () => {
         <button>download</button>
       </div>
       <div className="groups">
-        {groups.map((form: any) => (
-          <div key={form} className="groups-box">
-            <span>{form}</span>
-          </div>
-        ))}
+      {groupss.map((group) => (
+        <button
+        className="groups-box"
+          style={{ backgroundColor: clickedButton === group ? "red" : "blue" }}
+          onClick={() => handleClick(group)}
+        >
+          {group}
+        </button>
+      ))}
       </div>
       <div className="container">
         {data.map((form: any) => {

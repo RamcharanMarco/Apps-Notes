@@ -116,18 +116,21 @@ export const Note: FC<AppProps> = ({ hideNote, data }) => {
               placeholder="name"
               value={name}
               onChange={(e) => setName(e.target.value)}
+              readOnly={true}
             />
             <input
               type="text"
               placeholder="group"
               value={group}
               onChange={(e) => setGroup(e.target.value)}
+              readOnly={true}
             />
             <input
               type="text"
               placeholder="content"
               value={content}
               onChange={(e) => setContent(e.target.value)}
+              readOnly={true}
             />
           </div>
         </div>

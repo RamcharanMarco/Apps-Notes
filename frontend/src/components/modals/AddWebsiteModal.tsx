@@ -43,7 +43,7 @@ export const AddWebsiteModal: FC<AppProps> = ({ onCancel }) => {
         "Content-Type": "application/json",
         Authorization: `Bearer ${user.token}`,
       },
-      body: JSON.stringify({ name, content, group, ...data }),
+      body: JSON.stringify({ name, content, group:`wwhhwh`, ...data }),
     });
 
     const json = await response.json();
@@ -62,6 +62,34 @@ export const AddWebsiteModal: FC<AppProps> = ({ onCancel }) => {
       window.location.reload()
     }
   };
+
+  const [tech, setTech] = useState<string>("");
+
+  const [list, setList] = useState<string[]>([
+    "html",
+    "ruby",
+    "golang",
+    "css",
+    "javascript",
+    "typescript",
+    "node",
+    "python",
+    "ruby",
+    "c#",
+    "scss",
+    "java",
+    "php",
+    "react",
+    "vue",
+    "angular",
+    "nuxt",
+    "next",
+    "svelte",
+    "webcomponents",
+    "expressjs",
+    "django",
+  ]);
+
 
 
   return (
@@ -83,9 +111,27 @@ export const AddWebsiteModal: FC<AppProps> = ({ onCancel }) => {
         <input
           type="text"
           placeholder="group"
-          value={group}
-          onChange={(e) => setGroup(e.target.value)}
+          value={tech}
+          onChange={(e) => setTech(e.target.value)}
         />
+                    {5 === 5
+              ? list.map((item) => {
+                  if (item.includes(tech)) {
+                    return (
+                      <div
+                        className="item"
+                        onClick={() => {
+                          setTech("");
+                        }}
+                      >
+                        {item}
+                      </div>
+                    );
+                  } else {
+                    return;
+                  }
+                })
+              : null}
         </div>
         <div className="createForm-box">
         <p>content</p>
